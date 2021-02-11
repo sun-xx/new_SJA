@@ -5,9 +5,11 @@
 
 Scratch Json Analyser，简称 SJA，是由孤言发起的针对 Scratch3 Json 文件的比对工具。
 原先的[Scratch 版](https://www.aerfaying.com/Projects/512945)在 A 营发布。
-为响应用户的文件分析和比对需求，解决原来分析器效率低下的问题，决定采用 Python 来编写这个项目。
+为响应用户的文件分析和比对需求，解决原来分析器效率低下的问题，决定采用 Python 来编写这个项目。  
+[国内仓库](https://www.gitee.com/gitkunkun/SJA)  
+这个版本是sun-xx精简后，只剩内核与GUI的版本，去除了~~简陋的~~文档和旧内核以及命令行界面。  
 
-SJA 主要具有代码结构分析和文件相似度分析两大功能。  
+SJA 主要具有代码结构分析功能。  
 
 ## 小白专区
 下载exe文件：https://gitee.com/gitkunkun/sja-bin  
