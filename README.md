@@ -1,6 +1,5 @@
 # Scratch Json Analyser
-**个文档的一些执行结果已经过时，将会在不久的未来更新**  
-**sja核心即将弃用，换成pyscratch(3天3夜赶制的结果)，更多关于新核心的信息，在文档末尾有介绍**  
+**sja核心已经弃用，换成pyscratch，更多关于新核心的信息，在文档末尾有介绍**  
 
 ## 简介
 
@@ -24,11 +23,7 @@ SJA 主要具有代码结构分析和文件相似度分析两大功能。
 cd SJA
 pip3 install -r requirements.txt --i https://pypi.douban.com/simple
 ```
-依赖安装好以后，执行：  
-```shell
-cd TUI
-python __main__.py
-```
+依赖安装好以后，进入GUI文件夹，运行start.py  
 就可以运行了  
 ### Web版
 **待补充**  
@@ -40,8 +35,7 @@ python __main__.py
 ### GUI
 
 这是 GUI 界面，意味着你可以通过点点点的方式分析文件。  
-_正在开发中_  
-**如果你想尝试一下，进入GUI文件夹，打开start.bat预览效果**
+2021/2/11由sun-xx开发完成 
 
 ## 原理
 
@@ -50,9 +44,9 @@ scratch3 文件用 zip 格式打开后，会有一个 project.json 文件。
 
 ## 主要开发者
 
-[kunkun](https://github.com/kunkunhub) : 核心分析代码、维护人
+[kunkun](https://github.com/kunkunhub) : 核心开发者
 
-[sun-xx](https://github.com/sun-xx) : UI
+[sun-xx](https://github.com/sun-xx) : UI开发者
 
 [孤言](https://github.com/GuYan1024) : 发起者
 
